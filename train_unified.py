@@ -119,7 +119,7 @@ def train(rank, args):
         # Make sure to specify your desired project and entity names if needed!
         run = wandb.init(
             project="my_trajectron",
-            entity="shaikh18",
+            entity="shaikh18-purdue-university",
             name=hyperparams["log_tag"],
             notes=f"{model_name}, {train_scene}",
             job_type="train",
